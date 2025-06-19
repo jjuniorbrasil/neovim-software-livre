@@ -5,17 +5,19 @@ import terminal_2 from "../../public/images/executable2.png";
 
 function Heading() {
   return (
-    <div className="heading h-screen bg-cover bg-center flex flex-row align-center w-full justify-center text-white overflow-hidden">
-      <div className="bg-linear-(--main-bar-gradient) sm:w-9/10 md:w-5/8 lg:w-2/8 h-full p-3 lg:mr-10">
-        <Image
-          alt="Neovim Logo"
-          src={neovim}
-          width={500}
-          height={500}
-          className="p-16 grayscale-80 shadow-2xs m-auto"
-        />
-        <div className="text-end">
-          <h1 className="text-5xl font-light cursor-default">
+    <div className="heading bg-cover h-screen bg-center flex flex-row align-center w-full justify-center text-white overflow-hidden">
+      <div className="bg-linear-(--main-bar-gradient) h-[100%] sm:w-9/10 md:w-5/8 lg:w-2/8 p-3 lg:mr-10 flex flex-col">
+        <div className="p-8 bg-red-400 flex-2">
+          teste
+          <Image
+            alt="Neovim Logo"
+            src={neovim}
+            
+            className="grayscale-80 shadow-2xs m-auto"
+          />
+        </div>
+        <div className="text-end flex-1">
+          <h1 className="text-[180%] font-light cursor-default">
             neo<span className="font-bold">vim</span>livre
           </h1>
           <p className="font-sans font-light my-2 cursor-default">
