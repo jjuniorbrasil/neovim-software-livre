@@ -7,16 +7,15 @@ function Heading() {
   return (
     <div className="heading bg-cover h-screen bg-center flex flex-row align-center w-full justify-center text-white overflow-hidden">
       <div className="bg-linear-(--main-bar-gradient) h-[100%] sm:w-9/10 md:w-5/8 lg:w-2/8 p-3 lg:mr-10 flex flex-col">
-        <div className="p-8 bg-red-400 flex-2">
-          teste
+        <div className="relative p-8 flex-1 m-10">
           <Image
             alt="Neovim Logo"
             src={neovim}
-            
-            className="grayscale-80 shadow-2xs m-auto"
+            fill
+            className="object-contain grayscale-80 m-auto"
           />
         </div>
-        <div className="text-end flex-1">
+        <div className="text-end flex-2">
           <h1 className="text-[180%] font-light cursor-default">
             neo<span className="font-bold">vim</span>livre
           </h1>
@@ -42,7 +41,7 @@ function Heading() {
           src={terminal}
           className="relative top-1/10 left-1/3 z-2"
         />
-        <Image alt="Terminal 1" src={terminal_2} className="relative bottom-1/5" />
+        <Image alt="Terminal 2" src={terminal_2} className="absolute top-3/10 w-6/8" />
       </div>
     </div>
   );
