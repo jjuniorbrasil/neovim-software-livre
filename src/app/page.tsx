@@ -3,6 +3,7 @@ import { About } from "./pages/About";
 import { Heading } from "./pages/Heading";
 import { Videos } from "./pages/Videos";
 import { Footer } from "./components/Footer";
+import { Comments } from "./components/Comments";
 
 export default function Page() {
   return (
@@ -11,6 +12,7 @@ export default function Page() {
       <About />
       <Installation />
       <Videos />
+      <Comments />
       <Footer />
     </>
   );
