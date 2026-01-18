@@ -1,6 +1,5 @@
 "use client";
 
-import { Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const videos = [
@@ -37,7 +36,7 @@ export function Videos() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-xs font-mono text-accent border border-accent/30 rounded-full mb-4">
-            // tutoriais em vídeo
+            tutoriais em vídeo
           </span>
           <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-4">
             Aprenda <span className="text-accent">Assistindo</span>

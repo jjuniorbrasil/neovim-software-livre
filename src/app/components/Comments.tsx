@@ -1,7 +1,6 @@
 "use client";
 
 import Giscus from "@giscus/react";
-import { cn } from "@/lib/utils";
 
 export function Comments() {
   return (
@@ -10,7 +9,7 @@ export function Comments() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-xs font-mono text-primary border border-primary/30 rounded-full mb-4">
-            // comentários & feedback
+            comentários & feedback
           </span>
           <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-4">
             Fórum da <span className="text-gradient">Comunidade</span>
