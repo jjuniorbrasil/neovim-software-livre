@@ -43,7 +43,7 @@ export function About() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-xs font-mono text-primary border border-primary/30 rounded-full mb-4">
-            // sobre o projeto
+            sobre o projeto
           </span>
           <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-4">
             Por que <span className="text-gradient">Neovim</span>?
@@ -96,7 +96,7 @@ export function About() {
               <p><span className="text-secondary">vim.opt</span>.shiftwidth = <span className="text-terminal-cyan">4</span></p>
               <p><span className="text-secondary">vim.opt</span>.expandtab = <span className="text-primary">true</span></p>
               <p className="mt-4"><span className="text-accent">--</span><span className="text-muted-foreground"> Tema e aparência</span></p>
-              <p><span className="text-secondary">vim.cmd</span>(<span className="text-terminal-green">"colorscheme tokyonight"</span>)</p>
+              <p><span className="text-secondary">vim.cmd</span>(<span className="text-terminal-green">colorscheme tokyonight</span>)</p>
               <p className="flex items-center">
                 <span className="w-2 h-4 bg-primary terminal-cursor" />
               </p>

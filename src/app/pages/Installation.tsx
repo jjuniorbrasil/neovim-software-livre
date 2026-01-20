@@ -1,13 +1,14 @@
 "use client";
 
+import type { ComponentType, SVGProps } from "react";
 import { useState } from "react";
-import { Check, Copy, Monitor, Package, Terminal, Command, ExternalLink } from "lucide-react";
+import { Check, Copy, Package, Terminal, Command, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 type InstallMethod = {
   id: string;
   name: string;
-  icon: any;
+  icon: ComponentType<SVGProps<SVGSVGElement>>;
   command: string;
   description: string;
   link?: string;
@@ -94,7 +95,7 @@ export function Installation() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-xs font-mono text-secondary border border-secondary/30 rounded-full mb-4">
-            // guia de instalação
+            guia de instalação
           </span>
           <h2 className="text-3xl sm:text-4xl font-mono font-bold mb-4">
             Instalação no <span className="text-secondary">{activeOS}</span>
