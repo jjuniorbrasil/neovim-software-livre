@@ -11,6 +11,7 @@ const navLinks = [
   { href: "#instalacao", label: "Instalação" },
   { href: "#videos", label: "Vídeos" },
   { href: "#comments", label: "Fórum" },
+  { href: "/trainer", label: "Mapa de Atalhos" },
 ];
 
 export function Header() {
